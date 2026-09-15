@@ -6,8 +6,8 @@ def multiplicar(a,b):
     return a * b
 def dividir(a,b):
     if b == 0:
-        raise ValueError("Não é possível dividir por zero.")
+        raise ValueError("Não é possível dividir porrr zero.")
     return a / b
-def calcular_desconto(preco, percentual):
+def calcular_desconto(preco, percentual): 
     desconto = preco * (percentual / 100)
     return preco - desconto
